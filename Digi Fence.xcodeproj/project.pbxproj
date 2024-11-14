@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3869CDE32CA5D55800F576A7 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 3869CDE22CA5D55800F576A7 /* GoogleMaps */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3869CDC42CA5D27000F576A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3869CDA52CA5D27000F576A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3869CDAC2CA5D27000F576A7;
+			remoteInfo = GMaps;
+		};
+		3869CDCE2CA5D27000F576A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3869CDA52CA5D27000F576A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3869CDAC2CA5D27000F576A7;
+			remoteInfo = GMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3869CDAD2CA5D27000F576A7 /* Digi Fence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digi Fence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3869CDC32CA5D27000F576A7 /* Digi FenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digi FenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3869CDCD2CA5D27000F576A7 /* Digi FenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digi FenceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3869CDD52CA5D27000F576A7 /* Exceptions for "GMaps" folder in "Digi Fence" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3869CDAC2CA5D27000F576A7 /* Digi Fence */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3869CDAF2CA5D27000F576A7 /* GMaps */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3869CDD52CA5D27000F576A7 /* Exceptions for "GMaps" folder in "Digi Fence" target */,
+			);
+			path = GMaps;
+			sourceTree = "<group>";
+		};
+		3869CDC62CA5D27000F576A7 /* GMapsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GMapsTests;
+			sourceTree = "<group>";
+		};
+		3869CDD02CA5D27000F576A7 /* GMapsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GMapsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3869CDAA2CA5D27000F576A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3869CDE32CA5D55800F576A7 /* GoogleMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3869CDC02CA5D27000F576A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3869CDCA2CA5D27000F576A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3869CDA42CA5D27000F576A7 = {
+			isa = PBXGroup;
+			children = (
+				3869CDAF2CA5D27000F576A7 /* GMaps */,
+				3869CDC62CA5D27000F576A7 /* GMapsTests */,
+				3869CDD02CA5D27000F576A7 /* GMapsUITests */,
+				3869CDAE2CA5D27000F576A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3869CDAE2CA5D27000F576A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3869CDAD2CA5D27000F576A7 /* Digi Fence.app */,
+				3869CDC32CA5D27000F576A7 /* Digi FenceTests.xctest */,
+				3869CDCD2CA5D27000F576A7 /* Digi FenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3869CDAC2CA5D27000F576A7 /* Digi Fence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3869CDD62CA5D27000F576A7 /* Build configuration list for PBXNativeTarget "Digi Fence" */;
+			buildPhases = (
+				3869CDA92CA5D27000F576A7 /* Sources */,
+				3869CDAA2CA5D27000F576A7 /* Frameworks */,
+				3869CDAB2CA5D27000F576A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3869CDAF2CA5D27000F576A7 /* GMaps */,
+			);
+			name = "Digi Fence";
+			packageProductDependencies = (
+				3869CDE22CA5D55800F576A7 /* GoogleMaps */,
+			);
+			productName = GMaps;
+			productReference = 3869CDAD2CA5D27000F576A7 /* Digi Fence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3869CDC22CA5D27000F576A7 /* Digi FenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3869CDDB2CA5D27000F576A7 /* Build configuration list for PBXNativeTarget "Digi FenceTests" */;
+			buildPhases = (
+				3869CDBF2CA5D27000F576A7 /* Sources */,
+				3869CDC02CA5D27000F576A7 /* Frameworks */,
+				3869CDC12CA5D27000F576A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3869CDC52CA5D27000F576A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3869CDC62CA5D27000F576A7 /* GMapsTests */,
+			);
+			name = "Digi FenceTests";
+			packageProductDependencies = (
+			);
+			productName = GMapsTests;
+			productReference = 3869CDC32CA5D27000F576A7 /* Digi FenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3869CDCC2CA5D27000F576A7 /* Digi FenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3869CDDE2CA5D27000F576A7 /* Build configuration list for PBXNativeTarget "Digi FenceUITests" */;
+			buildPhases = (
+				3869CDC92CA5D27000F576A7 /* Sources */,
+				3869CDCA2CA5D27000F576A7 /* Frameworks */,
+				3869CDCB2CA5D27000F576A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3869CDCF2CA5D27000F576A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3869CDD02CA5D27000F576A7 /* GMapsUITests */,
+			);
+			name = "Digi FenceUITests";
+			packageProductDependencies = (
+			);
+			productName = GMapsUITests;
+			productReference = 3869CDCD2CA5D27000F576A7 /* Digi FenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3869CDA52CA5D27000F576A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3869CDAC2CA5D27000F576A7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3869CDC22CA5D27000F576A7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3869CDAC2CA5D27000F576A7;
+					};
+					3869CDCC2CA5D27000F576A7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3869CDAC2CA5D27000F576A7;
+					};
+				};
+			};
+			buildConfigurationList = 3869CDA82CA5D27000F576A7 /* Build configuration list for PBXProject "Digi Fence" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3869CDA42CA5D27000F576A7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3869CDE12CA5D55800F576A7 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3869CDAE2CA5D27000F576A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3869CDAC2CA5D27000F576A7 /* Digi Fence */,
+				3869CDC22CA5D27000F576A7 /* Digi FenceTests */,
+				3869CDCC2CA5D27000F576A7 /* Digi FenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3869CDAB2CA5D27000F576A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3869CDC12CA5D27000F576A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3869CDCB2CA5D27000F576A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3869CDA92CA5D27000F576A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3869CDBF2CA5D27000F576A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3869CDC92CA5D27000F576A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3869CDC52CA5D27000F576A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3869CDAC2CA5D27000F576A7 /* Digi Fence */;
+			targetProxy = 3869CDC42CA5D27000F576A7 /* PBXContainerItemProxy */;
+		};
+		3869CDCF2CA5D27000F576A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3869CDAC2CA5D27000F576A7 /* Digi Fence */;
+			targetProxy = 3869CDCE2CA5D27000F576A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3869CDD72CA5D27000F576A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UWQ5TGVMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GMaps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3869CDD82CA5D27000F576A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6UWQ5TGVMV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GMaps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3869CDD92CA5D27000F576A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3869CDDA2CA5D27000F576A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3869CDDC2CA5D27000F576A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digi Fence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digi Fence";
+			};
+			name = Debug;
+		};
+		3869CDDD2CA5D27000F576A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digi Fence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digi Fence";
+			};
+			name = Release;
+		};
+		3869CDDF2CA5D27000F576A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GMaps;
+			};
+			name = Debug;
+		};
+		3869CDE02CA5D27000F576A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GMaps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3869CDA82CA5D27000F576A7 /* Build configuration list for PBXProject "Digi Fence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3869CDD92CA5D27000F576A7 /* Debug */,
+				3869CDDA2CA5D27000F576A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3869CDD62CA5D27000F576A7 /* Build configuration list for PBXNativeTarget "Digi Fence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3869CDD72CA5D27000F576A7 /* Debug */,
+				3869CDD82CA5D27000F576A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3869CDDB2CA5D27000F576A7 /* Build configuration list for PBXNativeTarget "Digi FenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3869CDDC2CA5D27000F576A7 /* Debug */,
+				3869CDDD2CA5D27000F576A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3869CDDE2CA5D27000F576A7 /* Build configuration list for PBXNativeTarget "Digi FenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3869CDDF2CA5D27000F576A7 /* Debug */,
+				3869CDE02CA5D27000F576A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3869CDE12CA5D55800F576A7 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3869CDE22CA5D55800F576A7 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3869CDE12CA5D55800F576A7 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3869CDA52CA5D27000F576A7 /* Project object */;
+}
